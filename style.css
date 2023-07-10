@@ -1,0 +1,16 @@
+i:hover {
+  color: lightseagreen;
+}
+
+.btn {
+  font-size: 0.8em;
+}
+
+.btn:hover {
+  background-color: lightseagreen !important;
+}
+
+.flip:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}
