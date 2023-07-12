@@ -1,5 +1,18 @@
+.skills {
+  background-color: lightseagreen;
+  border-top-left-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+  padding-bottom: 120px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  h3 {
+    color: white !important;
+  }
+}
+
 i:hover {
   color: lightseagreen;
+  transition: color 0.5s ease;
 }
 
 .btn {
@@ -8,9 +21,67 @@ i:hover {
 
 .btn:hover {
   background-color: lightseagreen !important;
+  color: white !important;
+  transition: color 1s ease;
 }
 
 .flip:hover {
-  transform: rotateY(360deg);
-  transition: 2s;
+  border-radius: 0;
+}
+
+#portfolio {
+  position: relative;
+  transition: 2s !important;
+}
+
+.button-container {
+  position: relative;
+}
+
+.hidden-anchor {
+  /* display: inline-block; */
+  color: 000000;
+  cursor: pointer;
+  transition: color 2s ease;
+  transition: background 2s ease;
+}
+
+.hidden-anchor-smooth {
+  background: lightseagreen !important;
+  color: #ffffff !important;
+}
+
+.card {
+  margin: 10px auto;
+  height: 150px;
+}
+
+.jump-card-center,
+.jump-card-left,
+.jump-card-right {
+  transition: 0.5s;
+}
+
+.jump-card-left:hover {
+  transform: scale(1.1);
+  margin-right: 10px;
+  position: relative;
+  float: left;
+  transition: 0.5s;
+}
+
+.jump-card-center:hover {
+  transform: scale(1.1);
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.jump-card-right:hover {
+  transform: scale(1.1);
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  transition: 0.5s;
 }

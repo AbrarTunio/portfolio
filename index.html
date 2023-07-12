@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="script.js" defer></script>
     <!-- My custome styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -27,7 +28,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a
-          class="navbar-brand fw-bold"
+          id="portfolio"
+          class="navbar-brand p-2 rounded border fw-bold"
           style="color: lightseagreen"
           href="index.html"
           >PORTFOLIO</a
@@ -49,7 +51,12 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="https://youtube.com/c/techtimeee?sub_confirmation=1"
+              >
                 <i
                   class="fa-brands fa-youtube"
                   style="color: #e50b36; font-size: 25px"
@@ -57,7 +64,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a
+                class="nav-link"
+                href="https://github.com/AbrarTunio"
+                target="_blank"
                 ><i
                   class="fa-brands fa-github"
                   style="color: #171515; font-size: 25px"
@@ -65,7 +75,10 @@
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://www.linkedin.com/in/abrartunio/"
                 ><i
                   class="fa-brands fa-linkedin"
                   style="color: #0e76a8; font-size: 25px"
@@ -82,7 +95,7 @@
       <!-- main row starts here -->
       <div class="row pb-3 mb-3 align-items-center justify-content-around">
         <!-- left side picture starts-->
-        <div class="col-md-4 flip text-center">
+        <div class="col-md-4 flip text-center" id="image-container">
           <img
             style="
               transform: scale(0.6);
@@ -99,7 +112,7 @@
         <!-- right side introduction starts -->
         <div class="col-md-4 text-lg-start text-center text-secondary">
           <h1 class="h2">Hi there!</h1>
-          <h2 class="h2">
+          <h2 class="h2 name">
             I'm Engr. <span style="color: lightseagreen">Abrar Hussain</span>
           </h2>
           <div
@@ -107,13 +120,15 @@
             style="height: 3px; margin: auto; background-color: lightseagreen"
           ></div>
           <p class="h6 mt-2 text-secondary">I am a Sr. Full Stack Developer</p>
-          <a
-            href="abrartunio.github.io/portfolio/abrar_resume.pdf"
-            class="mt-3 btn btn-dark bg-gradient shadow"
-            style="font-size: smaller; border-radius: 20px"
-          >
-            <i class="fa-solid fa-sm fa-download"></i> Download CV
-          </a>
+          <div class="button-container">
+            <a
+              id="visible-anchor"
+              href="abrartunio.github.io/portfolio/abrar_resume.pdf"
+              class="btn shadow hidden-anchor"
+            >
+              <i class="fa-solid fa-sm fa-download"></i> Download CV
+            </a>
+          </div>
         </div>
         <!-- left side introduction ends -->
       </div>
@@ -121,13 +136,13 @@
     </div>
     <!-- Introductory Session Ends here -->
     <!-- List of my programming skills starts here -->
-    <div class="container rounded" style="border: 1px solid lightseagreen">
-      <h1
-        class="h3 text-center my-5"
-        style="width: fit-content; margin: auto; color: lightseagreen"
-      >
+    <div
+      class="container-fluid skills rounded"
+      style="border: 1px solid lightseagreen"
+    >
+      <h1 class="h3 text-center my-5" style="width: fit-content; margin: auto">
         Programming Languages, Libraries and Frameworks
-        <p class="text-secondary fs-6 text-md-end text-center">
+        <p class="text-dark fs-6 text-md-end text-center">
           I am well versed in!
         </p>
       </h1>
@@ -267,6 +282,54 @@
       <!-- FrameWorks ends here -->
     </div>
     <!-- List of my programming skills ends here -->
+    <!-- Quick Navigation Starts -->
+    <div class="container my-5">
+      <div class="row text-dark justify-content-center">
+        <div class="col-lg-2 jump-card-left">
+          <div class="card text-center">
+            <i
+              class="fa fa-graduation-cap pt-3 card-img-top"
+              style="font-size: 70px"
+            ></i>
+            <div class="card-body">
+              <h6 class="card-title">Qualification</h6>
+              <a href="#" class="btn text-dark bg-light btn-outline-secondary"
+                >Let's Check</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 jump-card-center">
+          <div class="card text-center">
+            <i
+              class="fa fa-history pt-3 card-img-top"
+              style="font-size: 70px"
+            ></i>
+            <div class="card-body">
+              <h6 class="card-title">Experience</h6>
+              <a href="#" class="btn text-dark bg-light btn-outline-secondary"
+                >Let's Check</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 jump-card-right">
+          <div class="card text-center">
+            <i
+              class="fas fa-project-diagram pt-3 card-img-top"
+              style="font-size: 70px"
+            ></i>
+            <div class="card-body">
+              <h6 class="card-title">Projects</h6>
+              <a href="#" class="btn text-dark bg-light btn-outline-secondary"
+                >Let's Check</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quick Navigation Ends -->
     <!-- List of Projects starts here -->
     <div class="container my-3 py-3 border border-secondary rounded">
       <div class="row">
