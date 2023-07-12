@@ -38,6 +38,17 @@ i:hover {
   position: relative;
 }
 
+.image-title {
+  width: fit-content;
+  margin: auto;
+  color: gray;
+  margin-top: -40px;
+}
+
+.image-title + p {
+  color: lightseagreen;
+}
+
 .hidden-anchor {
   /* display: inline-block; */
   color: 000000;
@@ -49,6 +60,27 @@ i:hover {
 .hidden-anchor-smooth {
   background: lightseagreen !important;
   color: #ffffff !important;
+}
+
+.image-scroll-behavior {
+  transform: translateX(25px);
+  transition: 1s;
+}
+
+.flip {
+  transition: 1s;
+}
+
+.card {
+  transition: 2s;
+  transform: translateY(-40px);
+  visibility: hidden;
+}
+
+.show-cards {
+  transition: 2s;
+  transform: translateY(0px);
+  visibility: visible;
 }
 
 .card {
