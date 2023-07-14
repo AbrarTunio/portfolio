@@ -19,7 +19,7 @@ function scrollFunction() {
     document.querySelectorAll(".card").forEach((card) => {
       card.classList.add("show-cards");
     });
-  } else {
+  } else if (scrollDirection <= 120) {
     document.querySelectorAll(".programming-card").forEach((card) => {
       card.classList.remove("show-cards");
     });

@@ -2,9 +2,10 @@
   background-color: lightseagreen;
   border-top-left-radius: 100px !important;
   border-bottom-right-radius: 100px !important;
-  padding-bottom: 120px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  height: auto;
+
   h3 {
     color: white !important;
   }
@@ -63,8 +64,12 @@ i:hover {
 }
 
 .image-scroll-behavior {
-  transform: translateX(25px);
+  transform: translateY(-40px);
   transition: 1s;
+}
+
+.intro {
+  text-align: justify;
 }
 
 .flip {
@@ -73,13 +78,13 @@ i:hover {
 
 .card {
   transition: 2s;
-  transform: translateY(-40px);
+  transform: translateY(40px);
   visibility: hidden;
 }
 
 .show-cards {
   transition: 2s;
-  transform: translateY(0px);
+  transform: translateY(20px);
   visibility: visible;
 }
 
@@ -117,3 +122,28 @@ i:hover {
   float: left;
   transition: 0.5s;
 }
+
+/* Graduation */
+.custom-background-image {
+  background-image: url("graduation.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.custom-background-image:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+/*Graduation Ends here*/
+
+/* Quick Navigation */
+
+.custom-quick-margin {
+  margin: 150px auto !important;
+}
+
+/* Quick Navigation Ends here */
