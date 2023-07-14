@@ -149,9 +149,12 @@ i:hover {
 /* Quick Navigation Ends here */
 
 /* Experience Start */
+.company-name {
+  color: lightseagreen;
+}
 
 .custom-background-image1 {
-  background-image: url("graduation.jpg");
+  background-image: url("master-trainer.jpg");
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
