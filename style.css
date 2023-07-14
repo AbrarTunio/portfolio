@@ -54,8 +54,8 @@ i:hover {
   /* display: inline-block; */
   color: 000000;
   cursor: pointer;
-  transition: color 2s ease;
-  transition: background 2s ease;
+  transition: color 1s ease;
+  transition: background 1s ease;
 }
 
 .hidden-anchor-smooth {
