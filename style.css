@@ -240,6 +240,16 @@ i:hover {
 .project-card {
   border-radius: 50%;
 }
+.all-projects {
+  transition: 1s;
+}
+
+.all-projects:hover {
+  background-color: darkslategrey !important;
+  color: whitesmoke !important;
+  transform: translateY(-10px);
+  transition: 1s;
+}
 
 /* Boostrap testimonial slider starts here */
 .testimonial-slider {
