@@ -1,4 +1,15 @@
 let redirects = document.querySelectorAll(".redirect");
+let hovs = document.querySelectorAll(".hov");
+
+hovs.forEach((box) => {
+  box.addEventListener("mouseenter", () => {
+    box.style.color = "white";
+  });
+
+  box.addEventListener("mouseleave", () => {
+    box.style.color = "";
+  });
+});
 
 redirects.forEach((box) => {
   box.addEventListener("mouseenter", () => {
