@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <!-- fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Manrope:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- third google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- custom css here -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="section3.css" />
+    <!-- custom script here -->
+    <script src="script.js" defer></script>
+    <script src="scroll.js" defer></script>
+    <script src="delay.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav class="position-absolute navbar text-light navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand heading-one px-3" href="index.html"
+          >Abrar Hussain</a
+        >
+        <button
+          id="toggle"
+          class="dark notset"
+          style="width: 150px; float: right; border-radius: 5px"
+        >
+          Toggle
+        </button>
+
+        <button
+          class="navbar-toggler general-one heading-one"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            class="navbar-toggler-icon fa-solid fa-grip-lines"
+            style="display: block; margin-top: 8px"
+          ></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#experience"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html#qualification"
+                >Qualification</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- main container starts here -->
+    <div class="container position-relative">
+      <!-- main area below navbar   -->
+      <div class="row main-row general-one">
+        <div class="col-md-4 h-100">
+          <div class="row" style="height: 100%">
+            <div class="col col-sm-12 general-three img-col align-self-center">
+              <div class="img delay-img h-100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 general-two h-100">
+          <div class="row" style="height: 100%">
+            <div class="col col-sm-12 content-col align-self-center text-light">
+              <h1 class="heading-one delay-x">I'm Abrar Hussain</h1>
+              <h1 class="heading-one delay-x">A Full Stack Developer</h1>
+              <h1 class="heading-two delay-x" style="font-weight: 800">
+                based in Pakistan
+              </h1>
+              <p
+                class="delay-y paragraph my-3 fs-12"
+                style="padding-right: 50px"
+              >
+                I am someone who finds immense peace and fulfillment in the
+                world of work, particularly in programming, developing and
+                teaching. My passion for these areas has driven me to
+                continuously learn and embrace new technologies, expanding my
+                expertise beyond the realm of telecom-related technologies. With
+                a background and knowledge spanning two fields (Telecom and
+                Software), I have developed a solid foundation and deep
+                understanding of technology. My lifelong learning attitude ...
+
+                <button
+                  type="button"
+                  class="general-three heading-one border border-secondary rounded"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Read more & download CV
+                </button>
+              </p>
+              <!-- Button trigger modal -->
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title heading-two"
+                        id="exampleModalLabel"
+                      >
+                        About me
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body general-one heading-one">
+                      I am someone who finds immense peace and fulfillment in
+                      the world of work, particularly in software development,
+                      programming, and teaching. My passion for these areas has
+                      driven me to continuously learn and embrace new
+                      technologies, expanding my expertise beyond the realm of
+                      telecom-related technologies. With a background and
+                      knowledge spanning two fields (Telecom and Software), I
+                      have developed a solid foundation and deep understanding
+                      of technology. My lifelong learning attitude serves as a
+                      constant motivation for me to seek new knowledge every
+                      day. This drive for personal and professional growth has
+                      transformed me into a perpetual "new version" of myself,
+                      always eager to explore and evolve. As a result, I have
+                      acquired numerous certifications and accumulated a wealth
+                      of knowledge from renowned online platforms such as
+                      LinkedIn Learning, Coursera, Udemy, and others. While many
+                      of my certifications are centered around web technology, I
+                      have also delved into diverse subjects including personal
+                      development, organizational behavior, supply chain
+                      management, and project management. This broad range of
+                      knowledge enables me to approach challenges from multiple
+                      perspectives and deliver comprehensive solutions. In
+                      summary, my passi on for working, software development,
+                      programming, and teaching, combined with my insatiable
+                      thirst for knowledge, has propelled me to continually grow
+                      and excel in the ever-evolving world of technology. I am
+                      excited to contribute my expertise and collaborate with
+                      all of you.
+                    </div>
+                    <div class="modal-footer">
+                      <a
+                        onmouseenter="this.style.color = 'white' ; this.style.backgroundColor = 'black'"
+                        onmouseleave="this.style.color = '' ; this.style.backgroundColor = ''"
+                        class="btn general-three heading-two"
+                        href="abrar_resume.pdf"
+                        target="_blank"
+                        >Download CV</a
+                      >
+                      <button
+                        type="button"
+                        class="btn general-one heading-one"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- the modal for pragraph element -->
+              <!-- Button trigger modal -->
+
+              <!-- Modal -->
+            </div>
+          </div>
+          <div class="row"></div>
+        </div>
+      </div>
+      <div
+        class="row position-absolute"
+        style="height: 20px; bottom: 40px; right: 10px"
+      >
+        <ul
+          class="navbar-nav mb-lg-0"
+          style="display: flex; flex-direction: row"
+        >
+          <li class="nav-item delay-y">
+            <a
+              class="link active p-2"
+              aria-current="page"
+              target="_blank"
+              href="https://youtube.com/c/techtimeee?sub_confirmation=1"
+            >
+              <i
+                class="fa-brands fa-youtube"
+                style="color: #e50b36; font-size: 25px"
+              ></i>
+            </a>
+          </li>
+          <li class="nav-item delay-y">
+            <a
+              class="link p-2"
+              href="https://github.com/AbrarTunio"
+              target="_blank"
+              ><i
+                class="fa-brands rounded-circle fa-github general-two"
+                style="font-size: 25px"
+              ></i
+            ></a>
+          </li>
+          <li class="nav-item delay-y">
+            <a
+              class="link p-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/abrartunio/"
+              ><i
+                class="fa-brands fa-linkedin"
+                style="color: #0e76a8; font-size: 25px"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- main container ends here -->
+    <!-- section two starts here -->
+    <div id="experience" class="container container-two general-one">
+      <!-- row for work experience -->
+      <div class="row">
+        <h6 class="heading-two delay-section-two a-title">Work Experience</h6>
+        <h1
+          class="heading-one delay-section-two a-description"
+          style="width: 70%"
+        >
+          Companies I have worked for in the past!
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card delay-section-two" style="width: 18rem">
+            <div class="card-body">
+              <h1 class="card-title a-card-title heading-two">01</h1>
+              <h6 class="card-subtitle mb-2 heading-two">
+                <span class="heading-one fs-4">Master Trainer</span>
+                <hr />
+                The Institute of Management & Entrepreneurship (TIME)
+              </h6>
+              <p class="card-text paragraph">
+                I am performing my duties as a Director and Master Trainer for
+                govornment projects to teach candidates about Website related
+                programming languages.
+              </p>
+              <button
+                type="button"
+                class="general-three d-block w-100 heading-one border border-secondary rounded"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModalTwo"
+              >
+                look further...
+              </button>
+              <div
+                class="modal fade"
+                id="exampleModalTwo"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title heading-two"
+                        id="exampleModalLabel"
+                      >
+                        Diving Deep!!!
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body general-one heading-one">
+                      <div class="bachelors">
+                        <h5 class="border-bottom border-3 heading-two">
+                          Master Trainer (Programming and Web Development)
+                        </h5>
+                        <h6 class="heading-one px-4">
+                          <span class="company-name">Institute: </span> The
+                          Institute of Management &amp; Entrepreneurship (TIME)
+                        </h6>
+                        <h6 class="heading-two px-4">Year: 2019 - 2023</h6>
+                        <div class="paragraph px-4" style="text-align: justify">
+                          <ul>
+                            <li>
+                              Preparing Lectures, Notes and Class Room
+                              Presentations
+                            </li>
+                            <li>Preparing and checking Assignments, Quizes</li>
+                            <li>Managing Google Class Rooms</li>
+                            <li>
+                              Conducting practical class on following Languages
+                              <ul>
+                                <li>
+                                  Web Design and Web Development
+                                  <div>
+                                    <button class="btn btn-outline-secondary">
+                                      HTML/CSS
+                                    </button>
+                                    <button class="btn btn-outline-secondary">
+                                      Bootstrap
+                                    </button>
+                                    <button class="btn btn-outline-secondary">
+                                      JavaScript
+                                    </button>
+                                    <button class="btn btn-outline-secondary">
+                                      PHP / OOP
+                                    </button>
+                                    <button class="btn btn-outline-secondary">
+                                      WordPress
+                                    </button>
+                                  </div>
+                                </li>
+                                <li>Python Programming and Applicatoins</li>
+                                <li>
+                                  Certificate of Information and Technology
+                                </li>
+                                <li>Diploma in Information and Technology</li>
+                                <li>Supply Chain Management</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Handling proper flow of Govt sponsored programs
+                              NAVTTC programs
+                            </li>
+                            <li>
+                              Applying for Expression of Interest in various
+                              Govt and Non Govt Organizations to win projects
+                              i.e (NAVTTC)
+                            </li>
+                            <li>
+                              Conducting Parent Teacher meetings to addrss
+                              concerns of parents and students
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="general-one heading-one"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card delay-section-two" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title a-card-title heading-two">02</h5>
+              <h6 class="card-subtitle mb-2 heading-two">
+                <span class="heading-one fs-4">Site Engineer</span>
+                <hr />
+                China Railway Signals and Communication (CRSC)
+              </h6>
+              <p class="card-text paragraph">
+                I was serving to this International company as a Site Engineer
+                and was managing a team of 100+ employees to get the railway
+                operation going.
+              </p>
+              <button
+                type="button"
+                class="general-three d-block w-100 heading-one border border-secondary rounded"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModalThree"
+              >
+                look further...
+              </button>
+              <div
+                class="modal fade"
+                id="exampleModalThree"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title heading-two"
+                        id="exampleModalLabel"
+                      >
+                        Diving Deep!!!
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body general-one heading-one">
+                      <div class="col-lg-12 px-4 rounded">
+                        <div class="bachelors">
+                          <h5 class="border-bottom border-3 heading-two">
+                            Site Engineer
+                          </h5>
+                          <h6 class="px-4 heading-one">
+                            <span class="company-name">Company: </span>China
+                            Railway Signals and Communication
+                          </h6>
+                          <h6 class="heading-two px-4">Year: 2017 - 2019</h6>
+                          <div
+                            class="paragraph px-4"
+                            style="text-align: justify"
+                          >
+                            <span class="fw-bold"
+                              >Roles and Responsibilites</span
+                            >
+                            <ul>
+                              <li>
+                                Managed a team of 10+ supervisors to achieve
+                                target of opening an station within time
+                              </li>
+                              <li>
+                                Directed team to complete the installation of
+                                Track ckt, Junction Box, IRJ, Barrier Machines,
+                                Signals and Point machines
+                              </li>
+                              <li>
+                                Troubleshoot and resolve issue related to Track
+                                Circuit, ODF and other electric and Telecom
+                                equipment
+                              </li>
+                              <li>
+                                Shared daily and weekly plan and presenting its
+                                completion and reporting to higher management of
+                                any key issues faced while process tasks
+                              </li>
+                              <li>
+                                Assuring proper laying of cables and
+                                installation of equipment at proper location as
+                                per standards provided by Pakistan Railway.
+                              </li>
+                              <li>
+                                Sharing daily progress report and next day plan.
+                              </li>
+                              <li>
+                                Getting Station yard area ready for inspection.
+                              </li>
+                              <li>
+                                Troubleshooting and resolving any issues
+                                regarding telecom and electrical/electronic
+                                equipment within time
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="general-one heading-one"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card delay-section-two" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title a-card-title heading-two">03</h5>
+              <h6 class="card-subtitle mb-2 heading-two">
+                <span class="heading-one fs-4">District IT officer</span>
+                <hr />
+                ACT International
+              </h6>
+              <p class="card-text paragraph">
+                I was working here as District IT officer, my responsiblities
+                were to ensure proper collection and uploading for accessed data
+                from benificiaries of BISP income support program.
+              </p>
+              <button
+                type="button"
+                class="general-three d-block w-100 heading-one border border-secondary rounded"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModalFour"
+              >
+                look further...
+              </button>
+              <div
+                class="modal fade"
+                id="exampleModalFour"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title heading-two"
+                        id="exampleModalLabel"
+                      >
+                        Diving Deep!!!
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body general-one heading-one">
+                      <div class="bachelors">
+                        <h5 class="border-bottom border-3 heading-two">
+                          District IT Officer
+                        </h5>
+                        <h6 class="heading-one px-4">
+                          <span class="company-name">Company: </span> ACT
+                          International
+                        </h6>
+                        <h6 class="heading-two px-4">Year: 2015 - 2016</h6>
+                        <div class="paragraph px-4" style="text-align: justify">
+                          <span class="fw-bold">Roles and Responsibilites</span>
+                          <ul>
+                            <li>
+                              Installing and configuring computer hardware,
+                              software, systems, networks, printers and scanners
+                            </li>
+                            <li>
+                              Creating Wireless LAN Networks, Creating Hotspots
+                              for sharing
+                            </li>
+                            <li>Supervising IT Assistants</li>
+                            <li>
+                              Entering, Maintaining and Forwarding data of BISP
+                              beneficiaries
+                            </li>
+                            <li>
+                              Making Work-plan, Printing and distributing to
+                              Tehsil Coordinators
+                            </li>
+                            <li>
+                              Planning and undertaking scheduled maintenance
+                              upgrades
+                            </li>
+                            <li>
+                              Investigating, diagnosing and solving computer
+                              software and hardware faults
+                            </li>
+                            <li>
+                              Maintaining GPS and Taking out required data
+                            </li>
+                            <li>
+                              Checking computer equipment for electrical safety
+                            </li>
+                            <li>Preparing daily progress reports</li>
+                            <li>Leading team of 10+ members</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="general-one heading-one"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section two ends here -->
+    <!-- section three starts here for qualification -->
+    <div id="qualification" class="container general-three py-5">
+      <div class="row">
+        <h6 class="heading-two delay-section-three a-title">Qualification</h6>
+        <h1
+          class="heading-one delay-section-three a-description"
+          style="width: 70%"
+        >
+          University degrees I have received so far!
+        </h1>
+      </div>
+      <div class="my-5 row justify-content-between">
+        <div
+          class="col-lg-4 qualification-img-section rounded"
+          style="overflow: hidden"
+        >
+          <div class="custom-background-image h-100 w-100"></div>
+
+          <!-- Photo by Pavel Danilyuk: https://www.pexels.com/photo/photo-of-person-holding-black-academic-hat-7944061/ -->
+        </div>
+        <div class="col-lg-8 px-4 rounded">
+          <div class="delay-section-three bachelors">
+            <h5 class="border-bottom border-3 heading-two">
+              Bachelors in Telecommunication
+            </h5>
+            <h6 class="heading-one px-4">
+              Thesis: Medium Access Control Techniques for Next Generation
+              Networks
+            </h6>
+            <p class="paragraph px-4" style="text-align: justify">
+              During my pursuit of a Bachelor's degree in Telecommunication, I
+              acquired a comprehensive understanding of the latest technology
+              and its applications. The program covered various key areas,
+              including computer networking, wireless communication, electrical
+              engineering concepts, simulation, and programming skills.
+              <br /><br />
+              The incorporation of simulation techniques in the curriculum
+              enhanced my problem-solving skills and ability to model and
+              analyze telecommunication systems. I gained hands-on experience in
+              utilizing simulation tools to evaluate performance, optimize
+              parameters, and predict system behavior.
+              <br /><br />
+              Overall, my Bachelor's degree in Telecommunication equipped me
+              with a well-rounded understanding of computer networking, wireless
+              communication, electrical engineering concepts, simulation, and
+              programming skills. This comprehensive knowledge base prepares me
+              to contribute effectively to the ever-evolving telecommunications
+              industry.
+            </p>
+          </div>
+          <div class="delay-section-three masters">
+            <h5 class="border-bottom border-3 heading-two">
+              Masters in Telecommunication &amp; Management
+            </h5>
+            <h6 class="heading-one px-4">
+              Thesis: Energy Aware Routing in Cognitive Radio Adhoc Networks
+            </h6>
+            <p class="paragraph px-4" style="text-align: justify">
+              In pursuit of my Masters Degree in Telecommunication and
+              Management, I embarked on an advanced educational journey that
+              deepened my expertise in telecommunications while expanding my
+              knowledge in managerial aspects. The program provided me with an
+              in-depth understanding of topics such as computer networking,
+              wireless communication, electrical engineering, and their advanced
+              applications.
+              <br /><br />
+              Furthermore, the curriculum encompassed essential managerial
+              subjects, including Organization Management, Organizational
+              Behavior, Human Resource Management, Cost Accounting, and other
+              relevant topics. These courses equipped me with the necessary
+              skills to navigate the complexities of managing telecommunication
+              projects and leading teams effectively.
+              <br /><br />
+              The comprehensive nature of my Masters program in
+              Telecommunication and Management has provided me with a
+              well-rounded skill set. By combining advanced technical knowledge
+              with managerial expertise, I am prepared to tackle complex
+              challenges in the telecommunications field while effectively
+              leading and managing teams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section three ends here for qualification -->
+
+    <!-- bootstrap bundled JS here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
